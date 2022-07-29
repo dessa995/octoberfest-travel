@@ -1,0 +1,161 @@
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.website-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fa {
+  margin-left: 5px;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-navbar {
+  display: flex;
+  gap: 10px;
+}
+
+.company-logo {
+  width: 180px;
+  height: 60px;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.navbar-user-item {
+  border-right: 0.1px solid rgba(36, 34, 34, 0.384);
+  border-left: 2px solid rgba(36, 34, 34, 0);
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+}
+
+.navbar-user-icon {
+  padding-top: 4px;
+  padding-bottom: 5px;
+  padding-right: 4px;
+  margin: 0px 14px;
+  border: 2px solid;
+  font-size: 15px;
+  border-radius: 50%;
+  text-align: center;
+  color: #0a3f5f;
+  font-weight: bold;
+}
+
+.navbar-text {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #0a3f5f;
+}
+
+.login-button {
+  background-color: #ffe383;
+  color: rgba(29, 25, 25, 0.795);
+  font-size: 20px;
+  font-weight: bold;
+  width: 140px;
+  height: 50px;
+  margin: 25px 5px;
+  border: none;
+  border-radius: 4px;
+}
+
+#navbar-drop-host {
+  position: relative;
+}
+
+.main-navbar {
+  background-color: #0a3f5f;
+  height: 55px;
+  padding: 0 50px;
+}
+.main-navbar-items {
+  display: flex;
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.main-navbar-drop-button {
+  background-color: #0a3f5f;
+  border: none;
+  color: rgba(240, 248, 255, 0.925);
+  height: 55px;
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  
+}
+
+.main-navbar-drop:hover .dropdown-content {
+  display: flex;
+}
+
+.drop-info-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.drop-content-div {
+  display: block;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.dropdown-heading {
+  color: #0a3f5f;
+  margin-bottom: 10px;
+}
+
+.dropdown-paragraph {
+  color: rgba(0, 0, 0, 0.801);
+  font-size: 20px;
+}
