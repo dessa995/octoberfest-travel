@@ -18,6 +18,18 @@ a {
   text-decoration: none;
 }
 
+@keyframes growDown {
+  0% {
+    transform: scaleY(0);
+  }
+  80% {
+    transform: scaleY(1.1);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
 .fa {
   margin-left: 5px;
 }
@@ -25,7 +37,7 @@ a {
 .header-nav {
   display: flex;
   justify-content: space-between;
-  width: 1400px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -93,12 +105,13 @@ a {
 
 .main-navbar {
   background-color: #0a3f5f;
-  height: 55px;
+  height: 57px;
   padding: 0 50px;
+  border-bottom: 2px solid white;
 }
 .main-navbar-items {
   display: flex;
-  width: 1400px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -116,7 +129,7 @@ a {
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  width: 1400px;
+  width: 1000px;
   margin-left: auto;
   margin-right: auto;
   align-items: center;
@@ -128,7 +141,6 @@ a {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  
 }
 
 .main-navbar-drop:hover .dropdown-content {
@@ -158,4 +170,31 @@ a {
 .dropdown-paragraph {
   color: rgba(0, 0, 0, 0.801);
   font-size: 20px;
+}
+
+.drop-content-div-first {
+  animation: growDown 300ms ease-in-out forwards;
+  transform-origin: top center;
+}
+
+.drop-content-div-second {
+  animation: growDown 400ms ease-in-out forwards;
+  transform-origin: top center;
+}
+
+.drop-content-div-third {
+  animation: growDown 500ms ease-in-out forwards;
+  transform-origin: top center;
+}
+
+.header-heading-div {
+  background-image: url(../Images/pexels-john-cahil-rom-2088282.jpg);
+  width: cover;
+  height: 800px;
+}
+
+.header-heading {
+  color: aliceblue;
+  text-shadow: rgb(2, 2, 2) 1px 0 5px;
+  text-align: center;
 }

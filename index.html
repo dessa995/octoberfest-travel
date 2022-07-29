@@ -82,7 +82,7 @@
                 How it works<i class="fa fa-caret-down"></i>
               </button>
               <div class="dropdown-content">
-                <div class="drop-content-div">
+                <div class="drop-content-div drop-content-div-first">
                   <a href="#">
                     <img
                       class="drop-info-img"
@@ -97,7 +97,7 @@
                     </p>
                   </a>
                 </div>
-                <div class="drop-content-div">
+                <div class="drop-content-div drop-content-div-second">
                   <a href="#">
                     <img
                       class="drop-info-img"
@@ -110,14 +110,18 @@
                     </p>
                   </a>
                 </div>
-                <div class="drop-content-div">
+                <div class="drop-content-div drop-content-div-third">
                   <a href="#"
                     ><img
                       class="drop-info-img"
                       src="assets/Images/pexels-tomáš-malík-1703314.jpg"
                     />
-                    <h2 class="dropdown-heading">Information for language learners</h2>
-                    <p class="dropdown-paragraph">Learn or immprove by immersing yourself into local life</p>
+                    <h2 class="dropdown-heading">
+                      Information for language learners
+                    </h2>
+                    <p class="dropdown-paragraph">
+                      Learn or immprove by immersing yourself into local life
+                    </p>
                   </a>
                 </div>
               </div>
@@ -150,14 +154,22 @@
             </div>
           </div>
         </div>
-        <h1 class="header-heading" id="header-heading">Work And Travel</h1>
+        <div class="header-heading-div">
+          <h1 class="header-heading" id="header-heading">
+            Travel differently connect globally
+          </h1>
+        </div>
       </header>
       <article>
         <div>
-          <label for="fname">Change the title:</label><br>
-          <input type="text" id="fname" name="fname"><br>
-          <button id="click-button">submit
-          </button>
+          <label for="fname">Change the title:</label><br />
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            onchange="myFunction()"
+          /><br />
+          <button id="click-button" type="submit">submit</button>
         </div>
       </article>
       <footer></footer>
