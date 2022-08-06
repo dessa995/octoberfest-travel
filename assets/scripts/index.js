@@ -23,3 +23,9 @@ function myFunction() {
   const heading = document.getElementById("header-heading");
   heading.textContent = test;
 }
+
+function changeBackgroundImageAutomatically() {
+  let headerImg = document.getElementById("header-img");
+  headerImg.style.backgroundImage =
+    "url('../assets/Images/pexels-leah-kelley-3935702.jpg')";
+}
