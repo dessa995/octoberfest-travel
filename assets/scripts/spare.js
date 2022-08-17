@@ -1,5 +1,7 @@
 $(document).ready();
 
+const logInButton = document.querySelector("login-button");
+
 let images = [
   "./assets/Images/pexels-leah-kelley-3935702.jpg",
   "./assets/Images/pexels-john-cahil-rom-2088282.jpg",
@@ -34,18 +36,6 @@ function changeBackgroundImageAutomatically() {
     "url('./assets/Images/pexels-leah-kelley-3935702.jpg')";
 }
 
-// Nove animacije sa Jqueriem
-
-const logInButton = document.querySelector(".login-button");
-
-const firstDivDrop = document.querySelector(".drop-content-div-first");
-const secondDivDrop = document.querySelector(".drop-content-div-second");
-const thirdDivDrop = document.querySelector(".drop-content-div-third");
-
 logInButton.addEventListener("click", function () {
-  $(logInButton).fadeOut(1000);
-
-  setTimeout(function () {
-    $(logInButton).fadeIn(1000);
-  }, 3000);
+  alert(1);
 });
